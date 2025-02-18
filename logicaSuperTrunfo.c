@@ -66,9 +66,9 @@ int main() {
     scanf("%d", &ponto_turisticos2);
 
     if (Populacao1 > Populacao2){
-        printf("A Cidade 1 Ganhou!");
+        printf("A Cidade 1 Ganhou com a Populaçao Maior!");
     }else{
-        printf("Cidade 2 Ganhou!");
+        printf("Cidade 2 Ganhou com a populaçao Maior!");
     }
 
     // Definição das variáveis para armazenar as propriedades das cidades
