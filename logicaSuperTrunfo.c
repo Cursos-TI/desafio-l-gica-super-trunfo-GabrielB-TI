@@ -39,7 +39,9 @@ int main() {
 
     printf("Quantidade de pontos turisticos: ");
     scanf("%d", &ponto_turisticos1);
-
+    
+ //================================================//   
+    printf("========Cidade Registrada==========");
  //================================================//
 
     printf("Digite o Nome da Segunda Cidade: ");
