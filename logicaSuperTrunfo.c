@@ -2,35 +2,67 @@
 
 int main() {
 
-    char Nome_cidade[20];
-    char Estado_cidade[20];
-    int Codigo_Cidade;
-    float Populacao;
-    float PIB;
-    float Area;
-    int ponto_turisticos;
+    char Nome_cidade1[20];
+    char Estado_cidade1[20];
+    int Codigo_Cidade1;
+    float Populacao1;
+    float PIB1;
+    float Area1;
+    int ponto_turisticos1;
+
+    char Nome_cidade2[20];
+    char Estado_cidade2[20];
+    int Codigo_Cidade2;
+    float Populacao2;
+    float PIB2;
+    float Area2;
+    int ponto_turisticos2;
 
 
-    printf("Digite o Nome da sua Cidade: ");
-    scanf("%c", &Nome_cidade);
+    printf("Digite o Nome da primeira Cidade: ");
+    scanf("%s", &Nome_cidade1);
 
-    printf("Qual o Estado da sua Cidade?: ");
-    scanf("%c", &Estado_cidade);
+    printf("Estado da Cidade: ");
+    scanf("%s", &Estado_cidade1);
 
-    printf("Digite o Codigo da sua Cidade: ");
-    scanf("%d", &Codigo_Cidade);
+    printf("Digite o Codigo da Cidade: ");
+    scanf("%d", &Codigo_Cidade1);
 
     printf("Qual o tamanho da populacao da sua cidade?: ");
-    scanf("%f", &Populacao);
+    scanf("%f", &Populacao1);
 
-    printf("Digite a Area total da sua cidade: ");
-    scanf("%f", &Area);
+    printf("Digite a Area total da Cidade: ");
+    scanf("%f", &Area1);
 
-    printf("Qual o PIB da sua cidade?: ");
-    scanf("%f", &PIB);
+    printf("PIB da sua cidade: ");
+    scanf("%f", &PIB1);
 
-    printf("Quantidade de pontos turisticos?: ");
-    scanf("%d", &ponto_turisticos);
+    printf("Quantidade de pontos turisticos: ");
+    scanf("%d", &ponto_turisticos1);
+
+ //================================================//
+
+    printf("Digite o Nome da Segunda Cidade: ");
+    scanf("%s", &Nome_cidade2);
+
+    printf("Estado da Cidade: ");
+    scanf("%s", &Estado_cidade2);
+
+    printf("Digite o Codigo da Cidade: ");
+    scanf("%d", &Codigo_Cidade2);
+
+    printf("Qual o tamanho da populacao da sua cidade?: ");
+    scanf("%f", &Populacao2);
+
+    printf("Digite a Area total da Cidade: ");
+    scanf("%f", &Area2);
+
+    printf("PIB da sua cidade: ");
+    scanf("%f", &PIB2);
+
+    printf("Quantidade de pontos turisticos: ");
+    scanf("%d", &ponto_turisticos2);
+
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
 
