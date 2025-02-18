@@ -19,7 +19,7 @@ int main() {
     int ponto_turisticos2;
 
 
-    printf("Digite o Nome da primeira Cidade: ");
+    printf("Digite o Nome da primeira Cidade:");
     scanf("%s", &Nome_cidade1);
 
     printf("Estado da Cidade: ");
@@ -41,7 +41,7 @@ int main() {
     scanf("%d", &ponto_turisticos1);
     
  //================================================//   
-    printf("========Cidade Registrada==========");
+    printf("========Cidade Registrada========== \n");
  //================================================//
 
     printf("Digite o Nome da Segunda Cidade: ");
@@ -64,6 +64,12 @@ int main() {
 
     printf("Quantidade de pontos turisticos: ");
     scanf("%d", &ponto_turisticos2);
+
+    if (Populacao1 > Populacao2){
+        printf("A Cidade 1 Ganhou!");
+    }else{
+        printf("Cidade 2 Ganhou!");
+    }
 
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
